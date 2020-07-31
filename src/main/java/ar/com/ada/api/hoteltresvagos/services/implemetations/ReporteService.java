@@ -2,14 +2,15 @@ package ar.com.ada.api.hoteltresvagos.services.implemetations;
 
 import java.math.BigDecimal;
 
+import ar.com.ada.api.hoteltresvagos.entities.Huesped;
 import ar.com.ada.api.hoteltresvagos.entities.Reserva;
 import ar.com.ada.api.hoteltresvagos.services.IReporteService;
 
 public class ReporteService implements IReporteService {
 
 	@Override
-	public int getCantidadReservas(Reserva reserva) {
-		return reserva.getCantidadReservas();
+	public int getCantidadReservas(Huesped huesped) {
+		return huesped.getCantidadReservas();
 	}
 
 	@Override
