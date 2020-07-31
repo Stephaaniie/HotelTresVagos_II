@@ -2,11 +2,14 @@ package ar.com.ada.api.hoteltresvagos.services.implemetations;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import ar.com.ada.api.hoteltresvagos.entities.Reserva;
 import ar.com.ada.api.hoteltresvagos.excepciones.ResourceNotFoundException;
 import ar.com.ada.api.hoteltresvagos.repos.ReservaRepository;
 import ar.com.ada.api.hoteltresvagos.services.IReservaService;
 
+@Service
 public class ReservaSevice implements IReservaService {
 
     private final ReservaRepository reservaRepository;
