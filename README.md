@@ -13,7 +13,8 @@ Imagen de como quedaron relacionadas las tablas del proyecto.
 ### POSTMAN :shipit:
 Para la solicitud de los WebMetodos
 Acontinuacion se daja el enlase para ver los request de la aplicación.
-<a href="https://documenter.getpostman.com/view/12223320/T1Dv6ZAQ" target="_blank"> ACCESO REQUEST POSTMAN<a>
+<a href="https://documenter.getpostman.com/view/12223320/T1Dv7a93
+" target="_blank"> ACCESO REQUEST POSTMAN<a>
 
 ### HEROKU :computer:
 Con Postgre como base de datos.

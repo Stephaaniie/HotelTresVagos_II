@@ -19,7 +19,7 @@ import ar.com.ada.api.hoteltresvagos.entities.Huesped;
 import ar.com.ada.api.hoteltresvagos.services.implemetations.HuespedService;
 
 @RestController
-@RequestMapping("/huespedes")
+@RequestMapping("api/huespedes")
 public class HuespedController {
 
     @Autowired
