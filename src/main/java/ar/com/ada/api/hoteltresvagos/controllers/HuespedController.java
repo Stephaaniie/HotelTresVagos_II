@@ -8,14 +8,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import ar.com.ada.api.hoteltresvagos.entities.Huesped;
-import ar.com.ada.api.hoteltresvagos.services.HuespedService;
+import ar.com.ada.api.hoteltresvagos.services.IHuespedService;
 
 
 @RestController
 public class HuespedController {
 
     @Autowired
-    HuespedService huespedService;
+    IHuespedService huespedService;
 
   
     @GetMapping("/huespedes")

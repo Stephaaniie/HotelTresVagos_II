@@ -10,18 +10,18 @@ import org.springframework.web.bind.annotation.*;
 import ar.com.ada.api.hoteltresvagos.entities.Reserva;
 import ar.com.ada.api.hoteltresvagos.entities.reportes.ReporteEstado;
 import ar.com.ada.api.hoteltresvagos.entities.reportes.ReportePorHuesped;
-import ar.com.ada.api.hoteltresvagos.services.ReporteService;
-import ar.com.ada.api.hoteltresvagos.services.ReservaService;
+import ar.com.ada.api.hoteltresvagos.services.IReporteService;
+import ar.com.ada.api.hoteltresvagos.services.IReservaService;
 
 @RestController
 public class ReservaController {
 
 
     @Autowired
-    ReporteService reporteService;
+    IReporteService reporteService;
 
     @Autowired
-    ReservaService reservaService;
+    IReservaService reservaService;
 
     @GetMapping("/reservas")
     public List<Reserva> getHuespedes() {
