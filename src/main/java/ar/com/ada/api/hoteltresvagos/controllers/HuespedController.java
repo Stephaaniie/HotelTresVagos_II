@@ -17,8 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import ar.com.ada.api.hoteltresvagos.entities.Huesped;
 import ar.com.ada.api.hoteltresvagos.services.implemetations.HuespedService;
-import ar.com.ada.api.hoteltresvagos.services.implemetations.ReporteService;
-
 
 @RestController
 @RequestMapping("/huespedes")

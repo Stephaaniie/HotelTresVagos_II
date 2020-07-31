@@ -9,8 +9,6 @@ import com.fasterxml.jackson.annotation.*;
 
 import org.hibernate.annotations.NaturalId;
 
-import ar.com.ada.api.hoteltresvagos.excepciones.HuespedDNIException;
-
 @Entity
 @Table(name = "huesped")
 public class Huesped {
@@ -57,11 +55,7 @@ public class Huesped {
         this.nombre = nombre;
     }
 
-    public void setDni(int dni) throws HuespedDNIException {
-
-        if (dni < 0) {
-            throw new HuespedDNIException(this, "ocurrio un error con el DNI");
-        }
+    public void setDni(int dni) {
         this.dni = dni;
     }
 
