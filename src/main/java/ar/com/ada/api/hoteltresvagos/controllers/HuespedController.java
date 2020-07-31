@@ -27,9 +27,6 @@ public class HuespedController {
     @Autowired
     HuespedService huespedService;
 
-    @Autowired
-    ReporteService reporteService;
-
     @GetMapping()
     public List<Huesped> findAll(@RequestParam String nombre) {
         return huespedService.findAll();
@@ -38,11 +35,6 @@ public class HuespedController {
     @GetMapping("/{id}")
     public Huesped findById(@PathVariable int id) {
         return huespedService.findById(id);
-    }
-
-    @GetMapping("/{id}")
-    public int findByCantReservas(@PathVariable int id) {
-        return reporteService.getCantidadReservas(huespedService.findById(id));
     }
 
     @PostMapping()
