@@ -7,7 +7,7 @@ WEB API: HOTEL TRES VAGOS es un Proyecto realizado en Java 11 con SpringBoot, Ma
 Imagen de como quedaron relacionadas las tablas del proyecto.
 
 <div style="width: 100%">
- <img width="49.15%" src=""/>
+ <img width="49.15%" src="https://github.com/Stephaaniie/HotelTresVagos_II/blob/master/src/main/resources/img/tablas-htv.png"/>
 </div>
 
 ### POSTMAN :shipit:
