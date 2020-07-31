@@ -1,4 +1,4 @@
-# HotelTresVagos_II :octocat:
+# HotelTresVagos_II :european_castle: :hibiscus: :octocat:
 
 WEB API: HOTEL TRES VAGOS es un Proyecto realizado en Java 11 con SpringBoot, Maven, Hibernate, Tomcat como webServer. Su utilizo inicalmente MySQL como base de datos pero para relizar el deploy se transporto a Postgre.
 
@@ -35,6 +35,6 @@ Con Postgre como base de datos.
         - mvn verify (Verifica que todas las dependencias esten instaladas correctamente).
         - mvn compile (Compila el proyecto).
     
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/60a21df2d87d41e180dcb88c7eb7b1e6)](https://www.codacy.com/manual/Stephaaniie/RRHH-Empleados?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephaaniie/RRHH-Empleados&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/1c524e61cd8640e79b80d406eda8754b)](https://www.codacy.com/manual/Stephaaniie/Clima-Nasa?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephaaniie/Clima-Nasa&amp;utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/075375c5ab674ab79a81e45f36763bcf)](https://www.codacy.com/manual/Stephaaniie/HotelTresVagos_II?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephaaniie/HotelTresVagos_II&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/1c524e61cd8640e79b80d406eda8754b)](https://www.codacy.com/manual/Stephaaniie/HotelTresVagos_II?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stephaaniie/HotelTresVagos_II&amp;utm_campaign=Badge_Coverage)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.codacy/codacy-coverage-reporter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.codacy/codacy-coverage-reporter)
