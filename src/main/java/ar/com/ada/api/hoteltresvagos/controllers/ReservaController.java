@@ -39,17 +39,17 @@ public class ReservaController {
         return reservaService.findAll();
     }
 
-    @GetMapping("reservas/{id}/deudas")
+    @GetMapping("/{id}/deudas")
     public BigDecimal totalASaldar(@PathVariable("id") int id) {
         return reporteService.getImporteTotal(reservaService.findById(id));
     }
 
-    @GetMapping("reservas/{id}/saldos")
+    @GetMapping("/{id}/saldos")
     public BigDecimal importePadado(@PathVariable("id") int id) {
         return reporteService.getTotalImportePagado(reservaService.findById(id));
     }
 
-    @GetMapping("reservas/{id}/precios")
+    @GetMapping("/{id}/precios")
     public BigDecimal importeReserva(@PathVariable("id") int id) {
         return reporteService.getTotalImporteReserva(reservaService.findById(id));
     }
