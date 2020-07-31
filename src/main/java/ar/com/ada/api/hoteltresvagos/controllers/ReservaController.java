@@ -20,7 +20,7 @@ import ar.com.ada.api.hoteltresvagos.services.implemetations.ReporteService;
 import ar.com.ada.api.hoteltresvagos.services.implemetations.ReservaSevice;
 
 @RestController
-@RequestMapping("/reservas")
+@RequestMapping("api/reservas")
 public class ReservaController {
 
     @Autowired
